@@ -1,4 +1,10 @@
 package com.drizzs.runetools.tools.pickaxe;
 
-public class DestitutePick {
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.PickaxeItem;
+
+public class DestitutePick extends PickaxeItem {
+    public DestitutePick(IItemTier tier, int attackDamageIn, float attackSpeedIn, Properties builder) {
+        super(tier, attackDamageIn, attackSpeedIn, builder);
+    }
 }

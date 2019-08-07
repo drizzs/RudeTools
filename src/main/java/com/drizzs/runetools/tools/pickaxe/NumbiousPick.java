@@ -9,9 +9,9 @@ import net.minecraft.item.PickaxeItem;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class NumbiousPickaxe extends PickaxeItem {
+public class NumbiousPick extends PickaxeItem {
 
-    public NumbiousPickaxe(IItemTier tier, int attackDamageIn, float attackSpeedIn, Properties builder) {
+    public NumbiousPick(IItemTier tier, int attackDamageIn, float attackSpeedIn, Properties builder) {
         super(tier, attackDamageIn, attackSpeedIn, builder);
     }
 

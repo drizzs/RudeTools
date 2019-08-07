@@ -2,6 +2,7 @@ package com.drizzs.runetools;
 
 import com.drizzs.runetools.proxy.ClientProxy;
 import com.drizzs.runetools.proxy.CommonProxy;
+import com.drizzs.runetools.tools.RudeTools;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -36,6 +37,7 @@ public class RudeToolsM
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
         MinecraftForge.EVENT_BUS.register(this);
+        RudeTools.init();
     }
 
     private void setup(final FMLCommonSetupEvent event)

@@ -1,6 +1,4 @@
-package com.drizzs.grassworld.proxy;
-
-import net.minecraft.world.World;
+package com.drizzs.runetools.proxy;
 
 public class ClientProxy extends CommonProxy
 {
